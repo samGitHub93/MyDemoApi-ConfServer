@@ -1,0 +1,18 @@
+server:
+  port: 8888
+encrypt:
+  key: encryptKey
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/samGitHub93/MyDemoApi-Conf
+          search-paths:
+          - config*
