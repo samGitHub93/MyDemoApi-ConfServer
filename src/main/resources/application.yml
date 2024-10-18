@@ -16,3 +16,4 @@ spring:
           uri: https://github.com/samGitHub93/MyDemoApi-Conf
           search-paths:
           - config*
+          default-label: master
